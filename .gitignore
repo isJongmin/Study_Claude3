@@ -1,0 +1,15 @@
+backend/.venv/
+backend/*.db
+backend/uploads/
+node_modules/
+frontend/dist/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+frontend/test-results/
+frontend/playwright-report/
+frontend/shots/
+.claude/settings.local.json
+.claude/.verify-stamp
+.env
+backend/.env

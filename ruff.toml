@@ -1,0 +1,5 @@
+line-length = 220
+exclude = ["backend/.venv"]
+
+[lint]
+select = ["E", "F", "I"]

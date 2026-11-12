@@ -1,0 +1,11 @@
+fastapi==0.162.4
+uvicorn[standard]==0.54.0
+sqlalchemy==2.1.8
+bcrypt==5.0.0
+pyjwt==2.15.1
+pyotp==2.10.0
+python-multipart==0.0.33
+mcp==1.30.0
+httpx==0.28.1
+pytest==9.2.0
+ruff==0.17.4
