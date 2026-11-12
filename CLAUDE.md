@@ -17,3 +17,4 @@
 - 표: 글자·날짜 왼쪽, 수치·버튼 오른쪽, 모바일은 카드. 토스트 성공 4초·오류 6초. reduced-motion이면 애니메이션 끔.
 - 360~1440px에서 가로 넘침 없음. 팝업이 열리면 뒤 페이지 고정. Playwright용 `data-test` 속성을 미리 붙인다.
 - 실행: `backend/.venv/Scripts/python.exe`, 검사는 `python scripts/verify.py --e2e`(3단계).
+- 화면 검토: `docs/screens/`의 스크린샷을 본다(바꾼 뒤 재생성 명령은 그 폴더 README). 새 환경은 `python scripts/setup.py`.

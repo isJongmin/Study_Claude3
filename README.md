@@ -2,6 +2,12 @@
 
 `origin/shipyard_mockup.html`을 3-tier 웹 시스템으로 옮긴 프로젝트입니다. 호선·공정·도면을 관리하고, 업무 규칙(도면 게이트·결재·상태 계산)은 서버가 판정합니다. 기준일은 `2026-10-19`로 고정입니다.
 
+## 폰·클라우드(Linux/macOS)에서 작업할 때
+1. `python scripts/setup.py` (가상환경·패키지·Playwright 브라우저 설치, 한 번만)
+2. 검사 `python scripts/verify.py --e2e`, 개발 서버 `python scripts/dev.py`
+3. 화면은 `docs/screens/*.png`(목록은 그 폴더의 README)로 확인하고, 화면을 바꾼 뒤에는 그 README의 명령으로 다시 만든다.
+4. 날씨 MCP(`.mcp.json`)는 `scripts/venv_python.py`를 거쳐 OS와 무관하게 실행된다.
+
 ## 실행 (Windows)
 `start.bat`을 더블클릭하면 가상환경·패키지 설치 → 서버 시작 → 브라우저(http://127.0.0.1:5173)가 열립니다. Ctrl+C로 종료합니다.
 필요: Python 3.11+, Node 20+.
